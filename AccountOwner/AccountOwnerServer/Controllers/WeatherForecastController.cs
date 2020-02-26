@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Contracts;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -16,9 +17,9 @@ namespace AccountOwnerServer.Controllers
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILoggerManager _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(ILoggerManager logger)
         {
             _logger = logger;
         }
@@ -26,6 +27,12 @@ namespace AccountOwnerServer.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
+
+            _logger.LogInfo("Here is the info message from controller.");
+            _logger.LogWarn("Here is the warning message from controller.");
+            _logger.LogDebug("Here is the debug message from controller.");
+            _logger.LogError("Here is the error message from controller.");
+
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {

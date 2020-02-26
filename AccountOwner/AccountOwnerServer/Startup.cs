@@ -12,6 +12,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using AccountOwnerServer.Extensions;
 using Microsoft.AspNetCore.HttpOverrides;
+using NLog;
+using System.IO;
 
 namespace AccountOwnerServer
 {
@@ -19,6 +21,7 @@ namespace AccountOwnerServer
     {
         public Startup(IConfiguration configuration)
         {
+            LogManager.LoadConfiguration(String.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
             Configuration = configuration;
         }
 
@@ -29,6 +32,8 @@ namespace AccountOwnerServer
         {
             services.ConfigureCors();
             services.ConfigureIISIntegration();
+
+            services.ConfigureLoggerService();
 
             services.AddControllers();
         }
