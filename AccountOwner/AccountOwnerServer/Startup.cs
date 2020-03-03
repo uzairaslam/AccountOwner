@@ -35,6 +35,8 @@ namespace AccountOwnerServer
 
             services.ConfigureLoggerService();
 
+            services.ConfigureSqlContext(Configuration);
+
             services.AddControllers();
         }
 
