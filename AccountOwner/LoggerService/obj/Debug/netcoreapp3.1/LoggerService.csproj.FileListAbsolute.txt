@@ -9,3 +9,5 @@ D:\Projects\AccountOwner\AccountOwner\LoggerService\bin\Debug\netcoreapp3.1\Cont
 D:\Projects\AccountOwner\AccountOwner\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.csproj.CopyComplete
 D:\Projects\AccountOwner\AccountOwner\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.dll
 D:\Projects\AccountOwner\AccountOwner\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.pdb
+D:\Projects\AccountOwner\AccountOwner\LoggerService\bin\Debug\netcoreapp3.1\Entities.dll
+D:\Projects\AccountOwner\AccountOwner\LoggerService\bin\Debug\netcoreapp3.1\Entities.pdb

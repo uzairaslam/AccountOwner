@@ -1,0 +1,13 @@
+D:\Projects\AccountOwner\AccountOwner\Repository\bin\Debug\netcoreapp3.1\Repository.deps.json
+D:\Projects\AccountOwner\AccountOwner\Repository\bin\Debug\netcoreapp3.1\Repository.dll
+D:\Projects\AccountOwner\AccountOwner\Repository\bin\Debug\netcoreapp3.1\Repository.pdb
+D:\Projects\AccountOwner\AccountOwner\Repository\bin\Debug\netcoreapp3.1\Contracts.dll
+D:\Projects\AccountOwner\AccountOwner\Repository\bin\Debug\netcoreapp3.1\Entities.dll
+D:\Projects\AccountOwner\AccountOwner\Repository\bin\Debug\netcoreapp3.1\Contracts.pdb
+D:\Projects\AccountOwner\AccountOwner\Repository\bin\Debug\netcoreapp3.1\Entities.pdb
+D:\Projects\AccountOwner\AccountOwner\Repository\obj\Debug\netcoreapp3.1\Repository.csprojAssemblyReference.cache
+D:\Projects\AccountOwner\AccountOwner\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfoInputs.cache
+D:\Projects\AccountOwner\AccountOwner\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfo.cs
+D:\Projects\AccountOwner\AccountOwner\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CopyComplete
+D:\Projects\AccountOwner\AccountOwner\Repository\obj\Debug\netcoreapp3.1\Repository.dll
+D:\Projects\AccountOwner\AccountOwner\Repository\obj\Debug\netcoreapp3.1\Repository.pdb

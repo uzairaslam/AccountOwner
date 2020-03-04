@@ -9,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Repository;
 
 namespace AccountOwnerServer.Extensions
 {
@@ -42,6 +43,11 @@ namespace AccountOwnerServer.Extensions
         {
             var connectionString = config.GetConnectionString("AccountOwnerDb");
             services.AddDbContext<RepositoryContext>(o => o.UseSqlServer(connectionString));
+        }
+
+        public static void ConfigureRepositoryWrapper(this IServiceCollection services)
+        {
+            services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
         }
     }
 }

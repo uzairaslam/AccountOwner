@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Contracts;
+using Entities.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -17,30 +18,27 @@ namespace AccountOwnerServer.Controllers
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
-        private readonly ILoggerManager _logger;
+        private readonly IRepositoryWrapper _repository;
 
-        public WeatherForecastController(ILoggerManager logger)
+        public WeatherForecastController(IRepositoryWrapper repository)
         {
-            _logger = logger;
+            this._repository = repository;
         }
 
         [HttpGet]
-        public IEnumerable<WeatherForecast> Get()
+        public IEnumerable<Owner> Get()
         {
-
-            _logger.LogInfo("Here is the info message from controller.");
-            _logger.LogWarn("Here is the warning message from controller.");
-            _logger.LogDebug("Here is the debug message from controller.");
-            _logger.LogError("Here is the error message from controller.");
-
-            var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)]
-            })
-            .ToArray();
+            var domesticAccounts = _repository.Account.FindByCondition(x => x.AccountType.Equals("Domestic"));
+            var owners = _repository.Owner.FindAll();
+            return owners.ToArray();
+            //var rng = new Random();
+            //return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            //{
+            //    Date = DateTime.Now.AddDays(index),
+            //    TemperatureC = rng.Next(-20, 55),
+            //    Summary = Summaries[rng.Next(Summaries.Length)]
+            //})
+            //.ToArray();
         }
     }
 }

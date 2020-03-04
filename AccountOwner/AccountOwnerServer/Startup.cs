@@ -36,6 +36,7 @@ namespace AccountOwnerServer
             services.ConfigureLoggerService();
 
             services.ConfigureSqlContext(Configuration);
+            services.ConfigureRepositoryWrapper();
 
             services.AddControllers();
         }
