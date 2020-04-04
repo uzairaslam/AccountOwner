@@ -2,7 +2,6 @@ D:\Projects\AccountOwner\EfCoreSeries\bin\Debug\netcoreapp3.1\appsettings.Develo
 D:\Projects\AccountOwner\EfCoreSeries\bin\Debug\netcoreapp3.1\appsettings.json
 D:\Projects\AccountOwner\EfCoreSeries\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 D:\Projects\AccountOwner\EfCoreSeries\bin\Debug\netcoreapp3.1\EfCoreSeries.exe
-D:\Projects\AccountOwner\EfCoreSeries\obj\Debug\netcoreapp3.1\EfCoreSeries.csprojAssemblyReference.cache
 D:\Projects\AccountOwner\EfCoreSeries\obj\Debug\netcoreapp3.1\EfCoreSeries.AssemblyInfoInputs.cache
 D:\Projects\AccountOwner\EfCoreSeries\obj\Debug\netcoreapp3.1\EfCoreSeries.AssemblyInfo.cs
 D:\Projects\AccountOwner\EfCoreSeries\obj\Debug\netcoreapp3.1\EfCoreSeries.RazorTargetAssemblyInfo.cache
@@ -120,3 +119,7 @@ D:\Projects\AccountOwner\EfCoreSeries\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.
 D:\Projects\AccountOwner\EfCoreSeries\obj\Debug\netcoreapp3.1\EfCoreSeries.dll
 D:\Projects\AccountOwner\EfCoreSeries\obj\Debug\netcoreapp3.1\EfCoreSeries.pdb
 D:\Projects\AccountOwner\EfCoreSeries\obj\Debug\netcoreapp3.1\EfCoreSeries.genruntimeconfig.cache
+D:\Projects\AccountOwner\EfCoreSeries\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Projects\AccountOwner\EfCoreSeries\obj\Debug\netcoreapp3.1\EfCoreSeries.csprojAssemblyReference.cache
+D:\Projects\AccountOwner\EfCoreSeries\obj\Debug\netcoreapp3.1\EfCoreSeries.csproj.CoreCompileInputs.cache
+D:\Projects\AccountOwner\EfCoreSeries\obj\Debug\netcoreapp3.1\EfCoreSeries.MvcApplicationPartsAssemblyInfo.cache
