@@ -1,10 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Entities.Configuration;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EfCoreSeries.Entities
+namespace Entities
 {
     public class ApplicationContext : DbContext
     {
@@ -18,7 +19,8 @@ namespace EfCoreSeries.Entities
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             //base.OnModelCreating(modelBuilder);
-            modelBuilder.Entity<Student>().Property(s => s.IsRegularStudent).HasDefaultValue(true);
+            //modelBuilder.Entity<Student>().Property(s => s.IsRegularStudent).HasDefaultValue(true);
+            modelBuilder.ApplyConfiguration(new StudentConfiguration());
         }
     }
 }
