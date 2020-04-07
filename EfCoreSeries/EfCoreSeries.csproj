@@ -5,6 +5,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20200407174807_OneToManyRelationshipStudent_Evaluation.cs" />
+    <Compile Remove="Migrations\20200407174807_OneToManyRelationshipStudent_Evaluation.Designer.cs" />
+    <Compile Remove="Migrations\20200407180142_OneToManyRelationshipStudent_Evaluation.cs" />
+    <Compile Remove="Migrations\20200407180142_OneToManyRelationshipStudent_Evaluation.Designer.cs" />
+    <Compile Remove="Migrations\20200407180536_OneToManyRelationshipStudent_Evaluation.cs" />
+    <Compile Remove="Migrations\20200407180536_OneToManyRelationshipStudent_Evaluation.Designer.cs" />
+    <Compile Remove="Migrations\20200407182034_OneToManyRelationshipStudent_Evaluation.cs" />
+    <Compile Remove="Migrations\20200407182034_OneToManyRelationshipStudent_Evaluation.Designer.cs" />
+    <Compile Remove="Migrations\20200407182309_OneToManyRelationshipStudent_Evaluation.cs" />
+    <Compile Remove="Migrations\20200407182309_OneToManyRelationshipStudent_Evaluation.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.3" />
