@@ -21,6 +21,7 @@ namespace Entities
             //base.OnModelCreating(modelBuilder);
             //modelBuilder.Entity<Student>().Property(s => s.IsRegularStudent).HasDefaultValue(true);
             modelBuilder.ApplyConfiguration(new StudentConfiguration());
+            modelBuilder.ApplyConfiguration(new StudentSubjectConfiguration());
         }
     }
 }
