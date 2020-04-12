@@ -19,6 +19,40 @@ namespace Entities.Configuration
             builder.HasOne(ss => ss.Subject)
                 .WithMany(s => s.StudentSubjects)
                 .HasForeignKey(ss => ss.SubjectId);
+
+            builder.HasData
+            (
+                new StudentSubject
+                {
+                    StudentId = 1,
+                    SubjectId = 1
+                },
+                new StudentSubject
+                {
+                    StudentId = 1,
+                    SubjectId = 2
+                },
+                new StudentSubject
+                {
+                    StudentId = 1,
+                    SubjectId = 3
+                },
+                new StudentSubject
+                {
+                    StudentId = 2,
+                    SubjectId = 4
+                },
+                new StudentSubject
+                {
+                    StudentId = 2,
+                    SubjectId = 1
+                },
+                new StudentSubject
+                {
+                    StudentId = 3,
+                    SubjectId = 4
+                }
+            );
         }
     }
 }

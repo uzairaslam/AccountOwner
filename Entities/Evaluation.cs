@@ -14,7 +14,7 @@ namespace Entities
         [Required]
         public int Grade { get; set; }
 
-        public string AdditionalInformation { get; set; }
+        public string AdditionalExplanation { get; set; }
 
         public int StudentId { get; set; }
         [ForeignKey(nameof(StudentId))]
