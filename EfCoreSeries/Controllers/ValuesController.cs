@@ -22,14 +22,15 @@ namespace EfCoreSeries.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var entity = _context.Model
-                        .FindEntityType(typeof(Student).FullName);
+            //var entity = _context.Model
+            //            .FindEntityType(typeof(Student).FullName);
 
-            var tableName = entity.GetTableName();
-            var schemaName = entity.GetSchema();
-            var key = entity.FindPrimaryKey();
-            var properties = entity.GetProperties();
-            return Ok();
+            //var tableName = entity.GetTableName();
+            //var schemaName = entity.GetSchema();
+            //var key = entity.FindPrimaryKey();
+            //var properties = entity.GetProperties();
+            var students = _context.Students.Where(s => s.Age > 25).Include(st => st.Evaluations).ToList();
+            return Ok(students);
         }
     }
 }

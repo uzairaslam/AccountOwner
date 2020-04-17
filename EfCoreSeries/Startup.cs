@@ -29,7 +29,8 @@ namespace EfCoreSeries
         {
             services.AddDbContext<ApplicationContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("CodeMazeDb"), 
                 options => options.MigrationsAssembly("EfCoreSeries")));
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson(o => o.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+            //services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

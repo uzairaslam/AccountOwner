@@ -121,8 +121,11 @@ D:\Projects\AccountOwner\EfCoreSeries\obj\Debug\netcoreapp3.1\EfCoreSeries.pdb
 D:\Projects\AccountOwner\EfCoreSeries\obj\Debug\netcoreapp3.1\EfCoreSeries.genruntimeconfig.cache
 D:\Projects\AccountOwner\EfCoreSeries\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 D:\Projects\AccountOwner\EfCoreSeries\obj\Debug\netcoreapp3.1\EfCoreSeries.csprojAssemblyReference.cache
-D:\Projects\AccountOwner\EfCoreSeries\obj\Debug\netcoreapp3.1\EfCoreSeries.csproj.CoreCompileInputs.cache
-D:\Projects\AccountOwner\EfCoreSeries\obj\Debug\netcoreapp3.1\EfCoreSeries.MvcApplicationPartsAssemblyInfo.cache
 D:\Projects\AccountOwner\EfCoreSeries\bin\Debug\netcoreapp3.1\Entities.dll
 D:\Projects\AccountOwner\EfCoreSeries\bin\Debug\netcoreapp3.1\Entities.pdb
 D:\Projects\AccountOwner\EfCoreSeries\bin\Debug\netcoreapp3.1\.filenesting.json
+D:\Projects\AccountOwner\EfCoreSeries\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\Projects\AccountOwner\EfCoreSeries\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Projects\AccountOwner\EfCoreSeries\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\Projects\AccountOwner\EfCoreSeries\obj\Debug\netcoreapp3.1\EfCoreSeries.csproj.CoreCompileInputs.cache
+D:\Projects\AccountOwner\EfCoreSeries\obj\Debug\netcoreapp3.1\EfCoreSeries.MvcApplicationPartsAssemblyInfo.cache
